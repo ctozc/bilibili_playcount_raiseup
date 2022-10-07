@@ -1,0 +1,131 @@
+2022-10-07 09:33:28,839 redisClient.py[line:135] ERROR redis connection error: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+Traceback (most recent call last):
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 130, in test
+    self.getCount()
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 116, in getCount
+    proxies = self.getAll(https=False)
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 98, in getAll
+    items = self.__conn.hvals(self.name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 3084, in hvals
+    return self.execute_command('HVALS', name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 1379, in get_connection
+    connection.connect()
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+2022-10-07 09:33:28,839 redisClient.py[line:135] ERROR redis connection error: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+Traceback (most recent call last):
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 130, in test
+    self.getCount()
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 116, in getCount
+    proxies = self.getAll(https=False)
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 98, in getAll
+    items = self.__conn.hvals(self.name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 3084, in hvals
+    return self.execute_command('HVALS', name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 1379, in get_connection
+    connection.connect()
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+2022-10-07 09:35:28,476 redisClient.py[line:135] ERROR redis connection error: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+Traceback (most recent call last):
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 130, in test
+    self.getCount()
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 116, in getCount
+    proxies = self.getAll(https=False)
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 98, in getAll
+    items = self.__conn.hvals(self.name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 3084, in hvals
+    return self.execute_command('HVALS', name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 1379, in get_connection
+    connection.connect()
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+2022-10-07 09:35:28,476 redisClient.py[line:135] ERROR redis connection error: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+Traceback (most recent call last):
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 130, in test
+    self.getCount()
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 116, in getCount
+    proxies = self.getAll(https=False)
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 98, in getAll
+    items = self.__conn.hvals(self.name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 3084, in hvals
+    return self.execute_command('HVALS', name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 1379, in get_connection
+    connection.connect()
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+2022-10-07 09:45:52,785 redisClient.py[line:138] ERROR redis connection error: AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+Traceback (most recent call last):
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 130, in test
+    self.getCount()
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 116, in getCount
+    proxies = self.getAll(https=False)
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 98, in getAll
+    items = self.__conn.hvals(self.name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 3084, in hvals
+    return self.execute_command('HVALS', name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 1379, in get_connection
+    connection.connect()
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 567, in connect
+    self.on_connect()
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 643, in on_connect
+    auth_response = self.read_response()
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 756, in read_response
+    raise response
+ResponseError: AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+2022-10-07 09:45:52,785 redisClient.py[line:138] ERROR redis connection error: AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+Traceback (most recent call last):
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 130, in test
+    self.getCount()
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 116, in getCount
+    proxies = self.getAll(https=False)
+  File "/Users/zhengchen/Desktop/bilibili_playcount-master/proxy_pool/db/redisClient.py", line 98, in getAll
+    items = self.__conn.hvals(self.name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 3084, in hvals
+    return self.execute_command('HVALS', name)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 1379, in get_connection
+    connection.connect()
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 567, in connect
+    self.on_connect()
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 643, in on_connect
+    auth_response = self.read_response()
+  File "/Users/zhengchen/.pyenv/versions/2.7.18/lib/python2.7/site-packages/redis/connection.py", line 756, in read_response
+    raise response
+ResponseError: AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+2022-10-07 11:53:32,443 redisClient.py[line:138] ERROR redis connection error: AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+Traceback (most recent call last):
+  File "/Users/zhengchen/Desktop/bilibili_playcount_raiseup/proxy_pool/db/redisClient.py", line 130, in test
+    self.getCount()
+  File "/Users/zhengchen/Desktop/bilibili_playcount_raiseup/proxy_pool/db/redisClient.py", line 116, in getCount
+    proxies = self.getAll(https=False)
+  File "/Users/zhengchen/Desktop/bilibili_playcount_raiseup/proxy_pool/db/redisClient.py", line 98, in getAll
+    items = self.__conn.hvals(self.name)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/redis/commands/core.py", line 4887, in hvals
+    return self.execute_command("HVALS", name)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/redis/client.py", line 1235, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/redis/connection.py", line 1582, in get_connection
+    connection.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/redis/connection.py", line 623, in connect
+    self.on_connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/redis/connection.py", line 713, in on_connect
+    auth_response = self.read_response()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/redis/connection.py", line 839, in read_response
+    raise response
+redis.exceptions.ResponseError: AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
